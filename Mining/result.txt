@@ -1,0 +1,232 @@
+Model: "sequential"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding (Embedding)        (None, 55, 8)             800000
+_________________________________________________________________
+flatten (Flatten)            (None, 440)               0
+_________________________________________________________________
+dense (Dense)                (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+2021-01-06 11:07:54.730376: I tensorflow/compiler/mlir/mlir_graph_optimization_pass.cc:116] None of the MLIR optimization passes are enabled (registered 2)
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4918 - accuracy: 0.7564 - val_loss: 0.4420 - val_accuracy: 0.7885
+Epoch 2/4
+1583/1583 - 14s - loss: 0.4268 - accuracy: 0.8001 - val_loss: 0.4389 - val_accuracy: 0.7910
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4165 - accuracy: 0.8080 - val_loss: 0.4368 - val_accuracy: 0.7934
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4093 - accuracy: 0.8125 - val_loss: 0.4369 - val_accuracy: 0.7929
+2021-01-06 11:08:49.937443: W tensorflow/python/util/util.cc:348] Sets are not currently considered sequences, but this may change in the future, so consider avoiding using them.
+Time taken for trainning model: 56.41500115394592
+Model: "sequential_1"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_1 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_1 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_1 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4903 - accuracy: 0.7587 - val_loss: 0.4391 - val_accuracy: 0.7890
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4275 - accuracy: 0.7986 - val_loss: 0.4341 - val_accuracy: 0.7938
+Epoch 3/4
+1583/1583 - 14s - loss: 0.4172 - accuracy: 0.8068 - val_loss: 0.4330 - val_accuracy: 0.7934
+Epoch 4/4
+1583/1583 - 15s - loss: 0.4104 - accuracy: 0.8116 - val_loss: 0.4324 - val_accuracy: 0.7943
+Time taken for trainning model: 56.10200309753418
+Model: "sequential_2"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_2 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_2 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_2 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4946 - accuracy: 0.7547 - val_loss: 0.4416 - val_accuracy: 0.7865
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4294 - accuracy: 0.7976 - val_loss: 0.4352 - val_accuracy: 0.7932
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4195 - accuracy: 0.8050 - val_loss: 0.4323 - val_accuracy: 0.7959
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4129 - accuracy: 0.8099 - val_loss: 0.4313 - val_accuracy: 0.7976
+Time taken for trainning model: 54.55200409889221
+Model: "sequential_3"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_3 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_3 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_3 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 15s - loss: 0.4924 - accuracy: 0.7569 - val_loss: 0.4519 - val_accuracy: 0.7837
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4302 - accuracy: 0.7976 - val_loss: 0.4438 - val_accuracy: 0.7907
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4198 - accuracy: 0.8043 - val_loss: 0.4415 - val_accuracy: 0.7913
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4125 - accuracy: 0.8095 - val_loss: 0.4405 - val_accuracy: 0.7908
+Time taken for trainning model: 55.99000310897827
+Model: "sequential_4"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_4 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_4 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_4 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4968 - accuracy: 0.7528 - val_loss: 0.4503 - val_accuracy: 0.7796
+Epoch 2/4
+1583/1583 - 14s - loss: 0.4275 - accuracy: 0.7988 - val_loss: 0.4450 - val_accuracy: 0.7866
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4161 - accuracy: 0.8070 - val_loss: 0.4397 - val_accuracy: 0.7922
+Epoch 4/4
+1583/1583 - 15s - loss: 0.4086 - accuracy: 0.8128 - val_loss: 0.4395 - val_accuracy: 0.7937
+Time taken for trainning model: 57.0560028553009
+Model: "sequential_5"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_5 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_5 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_5 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4955 - accuracy: 0.7526 - val_loss: 0.4457 - val_accuracy: 0.7822
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4272 - accuracy: 0.7993 - val_loss: 0.4362 - val_accuracy: 0.7937
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4161 - accuracy: 0.8079 - val_loss: 0.4349 - val_accuracy: 0.7971
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4087 - accuracy: 0.8131 - val_loss: 0.4350 - val_accuracy: 0.7968
+Time taken for trainning model: 54.65700101852417
+Model: "sequential_6"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_6 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_6 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_6 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 15s - loss: 0.4902 - accuracy: 0.7572 - val_loss: 0.4409 - val_accuracy: 0.7897
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4273 - accuracy: 0.7994 - val_loss: 0.4365 - val_accuracy: 0.7948
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4177 - accuracy: 0.8068 - val_loss: 0.4351 - val_accuracy: 0.7949
+Epoch 4/4
+1583/1583 - 14s - loss: 0.4119 - accuracy: 0.8110 - val_loss: 0.4353 - val_accuracy: 0.7959
+Time taken for trainning model: 56.23200798034668
+Model: "sequential_7"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_7 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_7 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_7 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4992 - accuracy: 0.7506 - val_loss: 0.4478 - val_accuracy: 0.7784
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4282 - accuracy: 0.7983 - val_loss: 0.4365 - val_accuracy: 0.7916
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4172 - accuracy: 0.8067 - val_loss: 0.4379 - val_accuracy: 0.7891
+Epoch 4/4
+1583/1583 - 14s - loss: 0.4105 - accuracy: 0.8115 - val_loss: 0.4354 - val_accuracy: 0.7926
+Time taken for trainning model: 55.66600799560547
+Model: "sequential_8"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_8 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_8 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_8 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 14s - loss: 0.4972 - accuracy: 0.7516 - val_loss: 0.4399 - val_accuracy: 0.7881
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4280 - accuracy: 0.7990 - val_loss: 0.4336 - val_accuracy: 0.7929
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4155 - accuracy: 0.8084 - val_loss: 0.4340 - val_accuracy: 0.7906
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4073 - accuracy: 0.8138 - val_loss: 0.4359 - val_accuracy: 0.7873
+Time taken for trainning model: 54.5280020236969
+Model: "sequential_9"
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #
+=================================================================
+embedding_9 (Embedding)      (None, 55, 8)             800000
+_________________________________________________________________
+flatten_9 (Flatten)          (None, 440)               0
+_________________________________________________________________
+dense_9 (Dense)              (None, 2)                 882
+=================================================================
+Total params: 800,882
+Trainable params: 800,882
+Non-trainable params: 0
+_________________________________________________________________
+Epoch 1/4
+1583/1583 - 15s - loss: 0.4943 - accuracy: 0.7539 - val_loss: 0.4484 - val_accuracy: 0.7815
+Epoch 2/4
+1583/1583 - 13s - loss: 0.4272 - accuracy: 0.7994 - val_loss: 0.4379 - val_accuracy: 0.7910
+Epoch 3/4
+1583/1583 - 13s - loss: 0.4157 - accuracy: 0.8079 - val_loss: 0.4367 - val_accuracy: 0.7921
+Epoch 4/4
+1583/1583 - 13s - loss: 0.4085 - accuracy: 0.8127 - val_loss: 0.4364 - val_accuracy: 0.7931
+Time taken for trainning model: 55.66900658607483
