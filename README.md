@@ -1,5 +1,5 @@
 # Machine-learning 
-Set of Python programs used in the my Completion of course work: Identification of behavior patterns in social networks through data mining: Cyberbullying on Twitter.
+Set of Python programs used in the my Completion of Course Work: Identification of behavior patterns in social networks through data mining: Cyberbullying on Twitter.
 
 See the PDF document in the folder for project details (Portuguese).
 
@@ -7,6 +7,8 @@ Also included are:
 A compressed database file for training; 
 Text file with training test results; 
 The classification model itself is trained and saved ready to use.
+
+Frameworks used: Scikit-learn, Pandas, Keras, and Matplotlib
 
 Not Included: Lines of code from the MongoDB database to eliminate duplicates and empty documents.
 
