@@ -24,6 +24,8 @@ Um arquivo compactado a base de dados para treinamento;
 Arquivo texto com os resultados dos testes de treino; 
 O modelo de classificação em si treinado e salvo pronto para ser usado.
 
+Frameworks usados: Scikit-learn, Pandas, Keras, Matplotlib
+
 Não estão inclusos:
 Linhas de código do banco de dados MongoDB para eliminar duplicatas e documentos vazios.
 
